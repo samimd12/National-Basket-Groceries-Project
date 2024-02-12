@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Basket Groceries</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>NBG</a>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="offers.html">Offers</a>
+        <a href="product.html">Products</a>
+        <a href="categories.html">Categories</a>
+        <a href="review.html">Review</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>Melon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>Onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>Chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for your Health</h3>
+        <p>We all know that organic products is better for your health, but they’re not so great for your wallet. So it helps to know which you absolutely must buy organic and which you can get away with buying non-organic. By using below shop now you can buy here fresh and organic groceries and dryfruits.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal" id="offers">
+    
+    <h1 class="heading"> our <span>Offers</span> </h1>
+
+    <div class="content">
+
+        <h3 class="title">deal of the day</h3>
+        <p>A deal of the day sale in groceries typically refers to a promotion that is available for a limited time, usually  at a grocery store. During this time, selected items or products are offered at a discounted price or with a special offer. The purpose of the deal is to entice customers to shop at the grocery store and to promote specific products.</p>
+
+        <div class="count-down" id="i1">
+            <div class="box">
+                <h3 id="day">00</h3>
+                <span>day</span>
+            </div>
+            <div class="box">
+                <h3 id="hour">00</h3>
+                <span>hour</span>
+            </div>
+            <div class="box">
+                <h3 id="minute">00</h3>
+                <span>minute</span>
+            </div>
+            <div class="box">
+                <h3 id="second">00</h3>
+                <span>second</span>
+            </div>
+        </div>
+
+        <a href="#" class="btn">check the deal</a>
+
+    </div>
+    
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="image/banner-1.jpg" alt="">
+        <div class="content">
+            <h3>special offer</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-2.jpg" alt="">
+        <div class="content">
+            <h3>limited offer</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+
+</section>
+</section>
+
+<!-- deal section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">Contact <span>Us</span></h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+<h1 class="heading">News<span>Letter</span></h1>
+    <h3>subscribe us for latest updates</h3>
+
+    <form action="">
+        <input class="box" type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>NBG <i class="fas fa-shopping-basket"></i> </h3>
+            <p>NBG is a online platform which provides users pure and fresh organic groceries and dryfruits with good quality and for best price.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Our Locations</h3>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> India </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> France </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Japan</a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Russia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#offers" class="links"> <i class="fas fa-arrow-right"></i> Offers </a>
+            <a href="product.html" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+            <a href="review.html" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+            <a href="blogs.html" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+            <a href="contactus.html" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+        </div>
+
+        <div class="box">
+            <h3>Download App</h3>
+            <a href="#" class="links"><i class="fa-brands fa-google-play"></i>  Google Play </a>
+            <a href="#" class="links"><i class="fa-brands fa-app-store-ios"></i> App store </a>
+            <a href="#" class="links"><i class="fa-brands fa-windows"></i> Windows</a>
+          
+        </div>
+
+    </div>
+
+    <div class="credit">  created by <span>NBG.com</span> | all rights reserved </div>
+
+</section>
+<!-- footer section ends-->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

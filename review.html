@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Basket Groceries</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <!-- header section starts  -->
+    
+    <header class="header">
+    
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>NBG</a>
+    
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="offers.html">Offers</a>
+            <a href="product.html">Products</a>
+            <a href="categories.html">Categories</a>
+            <a href="#review">Review</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contactus">Contact Us</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>Melon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+    
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for your Health</h3>
+            <p>We all know that organic products is better for your health, but they’re not so great for your wallet. So it helps to know which you absolutely must buy organic and which you can get away with buying non-organic. By using below shop now you can buy here fresh and organic vegetables.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    
+    </section>
+
+<!-- home section ends -->
+
+<!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+    
+        <div class="swiper review-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <p>I have purchased from this company for years. The best quality and price regardless if you buy retail instore or online.  I would highly recommend this company and its products.</p>
+                    <h3>John Deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <p>I will definitely buy from this company again, these product services are very good and best quality organic products and everything went smoothly and look forward to shopping online again.</p>
+                    <h3>Kellie B</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <p>Easy to place order online after selecting items.Payment method is quick and secure,received my parcel within 2 days.Products were exactly what I ordered and highly recommended.</p>
+                    <h3>Danielle M</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <p>Very happy with my purchase.Arrived in good time,around 3 days.I live in a rural location the Post Office sent me a note the parcel was in.It was well-packed for delivery. </p>
+                    <h3>Margaret R</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+
+<!-- review section ends -->
+
+ <!-- newsletter section starts  -->
+
+<section class="newsletter">
+    
+    <h1 class="heading">News<span>Letter</span></h1>
+
+    <h3>subscribe us for latest updates</h3>
+
+    <form action="">
+        <input class="box" type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>NBG<i class="fas fa-shopping-basket"></i> </h3>
+            <p>NBG is a online platform which provides users pure and fresh organic groceries and dryfruits with good quality and for best price.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Our Locations</h3>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> India </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> France </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Japan</a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Russia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="offers.html" class="links"> <i class="fas fa-arrow-right"></i> Offers </a>
+            <a href="product.html" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+            <a href="blogs.html" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+            <a href="contactus.html" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+        </div>
+
+        <div class="box">
+            <h3>Download App</h3>
+            <a href="#" class="links"><i class="fa-brands fa-google-play"></i>  Google Play </a>
+            <a href="#" class="links"><i class="fa-brands fa-app-store-ios"></i> App store </a>
+            <a href="#" class="links"><i class="fa-brands fa-windows"></i> Windows</a>
+          
+        </div>
+
+    </div>
+
+    <div class="credit">  created by <span>NBG.com</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+     <script src="js/script.js"></script>
+    </body>
+</html>
