@@ -22,7 +22,55 @@ const product = [
         image: '/image/product-6.png',
         title: 'Almond',
         price: 1080,
-    }
+    },
+    {
+        id: 3,
+        image: '/image/3roses.webp',
+        title: 'Tea Powder',
+        price: 560,
+    },
+    {
+        id: 3,
+        image: '/image/ghee.webp',
+        title: 'Ghee',
+        price: 550,
+    },
+    {
+        id: 3,
+        image: '/image/onion.webp',
+        title: 'Onion',
+        price: 30,
+    },
+    {
+        id: 3,
+        image: '/image/dhall3.png',
+        title: 'Dal',
+        price: 80,
+    },
+    {
+        id: 3,
+        image: '/image/oats.webp',
+        title: 'Oats',
+        price: 80,
+    },
+    {
+        id: 3,
+        image: '/image/walnut3.webp',
+        title: 'Walnut',
+        price: 1100,
+    },
+    {
+        id: 3,
+        image: '/image/raisins.webp',
+        title: 'Raisins',
+        price: 150,
+    },
+    {
+        id: 3,
+        image: '/image/cashew.webp',
+        title: 'Cashew',
+        price: 780,
+    },
 ];
 const categories = [...new Set(product.map((item)=>
     {return item}))]
