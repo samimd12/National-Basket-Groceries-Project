@@ -162,3 +162,6 @@ button:hover{
     cursor: pointer;
     color: #333;
 }
+.c{
+    padding-right: 10px;
+}
